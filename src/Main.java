@@ -75,7 +75,7 @@ public class Main {
         int now = 2024;
         int past = now - 200;
         int future = now + 100;
-        int year = 0;
+        int year = 1;
         for (year = past; year <= future; year++) {
             if (year % 79 == 0) {
                 System.out.println(year);
